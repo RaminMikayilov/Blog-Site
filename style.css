@@ -1,0 +1,33 @@
+.bg-color {
+    background: #1b4d89;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+}
+
+#map {
+    height: 450px;
+}
+
+@media (min-width: 768px) { 
+    .card-img-top {
+        width: 100%;
+        height: 40vh;
+        object-fit: cover;
+    }    
+    #map {
+        height: 100%;
+    }
+ }
+
+ @media (min-width: 576px) { 
+    .card-img-top {
+        width: 100%;
+        height: 35vh;
+        object-fit: cover;
+    }
+
+ }
